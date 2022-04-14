@@ -13,8 +13,8 @@ export class EmployeeComponent implements OnInit {
   ShowEmployeedata : Employee={
     lang: '',
     qual: '',
-    exp: null
-  }
+    exp: 0
+  };
   Employeedata : Employee={...this.ShowEmployeedata}
   ngOnInit(): void {
   }
